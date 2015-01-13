@@ -1,6 +1,3 @@
-/**
- * 
- */
 package gvl.cosinesimilarity;
 
 import java.util.HashMap;
