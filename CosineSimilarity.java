@@ -57,14 +57,4 @@ public class CosineSimilarity {
 		}
 		return dotProduct;
 	}
-	
-	public static void main(String[] args) {
-		HashMap<String, Double> A = new HashMap<String, Double>();
-		HashMap<String, Double> B = new HashMap<String, Double>();
-		
-		A.put("hi", 0.0);
-		B.put("hi", 0.0);
-		
-		System.out.println(cosineSimilarity(A, B));
-	}
 }
