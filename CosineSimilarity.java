@@ -51,7 +51,7 @@ public class CosineSimilarity {
 		Iterator<K> keys = shorter.keySet().iterator();
 		while (keys.hasNext()) {
 			K key = keys.next();
-			Number val1 = shorter.containsKey(key) ? shorter.get(key) : new Double(0.0);
+			Number val1 = shorter.get(key);
 			Number val2 = longer.containsKey(key) ? longer.get(key) : new Double(0.0);
 			dotProduct += val1.doubleValue() * val2.doubleValue();
 		}
